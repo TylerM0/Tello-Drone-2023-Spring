@@ -59,7 +59,10 @@ try:
         sendmsg('command', 0)
         sendmsg('takeoff')
 
-        sendmsg('forward 100')
+        for x in range(4):
+            sendmsg('forward 100')
+            sendmsg('ccw 90')
+
 
         sendmsg('land')
 
