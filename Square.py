@@ -58,7 +58,6 @@ try:
 
         sendmsg('command', 0)
         sendmsg('takeoff')
-
         for x in range(4):
             sendmsg('forward 100')
             sendmsg('ccw 90')
@@ -66,7 +65,7 @@ try:
 
         sendmsg('land')
 
-        print('\nGreat Flight!!!')
+        print('\nGreat Flight!!! for D8DDCF')
 
     else:
         print('\nMake sure you check WIFI, surroundings, co-pilot is ready, re-run program\n')
